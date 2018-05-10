@@ -1,0 +1,27 @@
+ <!-- Slick Library -->
+    <link rel="stylesheet" type="text/css" href="assets/libs/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/libs/slick-theme.css"/>
+
+
+<div class="slider main-slide">
+            <img src="assets/images/slider1.jpg" alt="">
+            <img src="assets/images/slider1.jpg" alt="">
+            <img src="assets/images/slider1.jpg" alt="">
+        </div>
+
+
+
+    <script type="text/javascript" src="assets/libs/slick.min.js"></script>
+    
+    
+    
+$(document).ready(function(){
+    $('.main-slide').slick({
+        dots: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      arrows: true
+    });
+});
